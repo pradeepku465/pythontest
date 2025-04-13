@@ -98,3 +98,15 @@ def sum(a,b,c):
 
 print(sum(1,1,1))
 
+#Write a Python program that determines whether a given number (accepted from the user) is even or odd, and prints an appropriate message to the user.
+
+def odd_even(b):
+    mod = b % 2
+    if mod > 0:
+
+        print("number is odd")
+    else:
+        print("number is prime")
+
+odd_even(4)
+
