@@ -34,6 +34,7 @@ def color_list():
     for a in reversed(colorlist):
         return a
 
+
 color_list()
 
 my_list=["Red", "Green", "white", "black"]
