@@ -71,3 +71,16 @@ def volume(z):
 
 print(volume(2))
 #starrtfr
+
+# program to calculate diff and show the diff.
+diff=0
+def difference(b):
+    global diff
+    if b<=17:
+        diff=17-b
+        return (diff)
+    else:
+        return (b-17)*2
+
+print(difference(18))
+
