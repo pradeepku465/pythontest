@@ -45,3 +45,23 @@ for i in range(len(my_list)):
 
 print("Reversed list:", reversed_list)
 
+
+def cals(a):
+    sum=0
+    sum= (a+a*a+a*a*a)
+    return sum
+
+
+print(cals(5))
+
+def mis(a):
+    sum1=a
+    sum2=a*a
+    sum3=a*a*a
+    sum_f=sum1+sum2+sum3
+    return sum_f
+
+print(mis(5))
+
+
+
