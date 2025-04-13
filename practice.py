@@ -63,5 +63,9 @@ def mis(a):
 
 print(mis(5))
 
+#calculate volume
+def volume(z):
+    volume=z*z*z
+    return volume
 
-
+print(volume(2))
