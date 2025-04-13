@@ -84,3 +84,17 @@ def within(b):
 
 within(3000)
 
+#Write a Python program to calculate the sum of three given numbers. If the values are equal, return three times their sum.
+
+def sum(a,b,c):
+    if a==b==c:
+        sum1=3*a
+        return sum1
+    else:
+        sum2= (a+b+c)
+        return sum2
+
+#print(sum(1,2,3))
+
+print(sum(1,1,1))
+
