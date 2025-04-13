@@ -28,5 +28,20 @@ def tuplee(a,b,c,d):
     return list, tupll
 
 print(tuplee(1,2,3,4))
+colorlist=["Red", "Green", "white", "black"]
+def color_list():
+    global colorlist
+    for a in reversed(colorlist):
+        return a
 
+color_list()
+
+my_list=["Red", "Green", "white", "black"]
+for i in range(len(my_list)):
+    my_list
+    reversed_list=[]
+    reversed_list.append(my_list[i])
+    # Print the reversed list
+
+print("Reversed list:", reversed_list)
 
