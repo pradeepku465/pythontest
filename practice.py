@@ -28,5 +28,40 @@ def tuplee(a,b,c,d):
     return list, tupll
 
 print(tuplee(1,2,3,4))
+colorlist=["Red", "Green", "white", "black"]
+def color_list():
+    global colorlist
+    for a in reversed(colorlist):
+        return a
+
+color_list()
+
+my_list=["Red", "Green", "white", "black"]
+for i in range(len(my_list)):
+    my_list
+    reversed_list=[]
+    reversed_list.append(my_list[i])
+    # Print the reversed list
+
+print("Reversed list:", reversed_list)
+
+
+def cals(a):
+    sum=0
+    sum= (a+a*a+a*a*a)
+    return sum
+
+
+print(cals(5))
+
+def mis(a):
+    sum1=a
+    sum2=a*a
+    sum3=a*a*a
+    sum_f=sum1+sum2+sum3
+    return sum_f
+
+print(mis(5))
+
 
 
