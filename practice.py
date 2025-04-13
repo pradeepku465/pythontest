@@ -110,3 +110,19 @@ def odd_even(b):
 
 odd_even(4)
 
+#match here the value is compared in each case:
+
+def match_cases(b):
+    match b:
+        case 1:print("this is from case 1")
+        case 2:(print("this is from case 2"))
+        case _:print("no value")
+
+match_cases(2)
+#match here the value is compared in each case:
+def day(c):
+    match c:
+        case 1: print("today sunday")
+        case 2: print("today monday")
+        case _: print("weekend")
+day(3)
