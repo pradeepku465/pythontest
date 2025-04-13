@@ -72,3 +72,15 @@ def volume(z):
 print(volume(2))
 #starrtfr
 
+#Write a Python program to test whether a number is within 100 of 1000 or 2000.
+
+def within(b):
+    if b<=100:
+        print("number is less than 100")
+    elif b >=100>=2000:
+        print("number is less than 1000")
+    else:
+        print("number is above 1000")
+
+within(3000)
+
