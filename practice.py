@@ -34,6 +34,7 @@ def color_list():
     for a in reversed(colorlist):
         return a
 
+
 color_list()
 
 my_list=["Red", "Green", "white", "black"]
@@ -63,5 +64,10 @@ def mis(a):
 
 print(mis(5))
 
+#calculate volume
+def volume(z):
+    volume=z*z*z
+    return volume
 
-
+print(volume(2))
+#starrtfr
